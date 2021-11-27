@@ -19,7 +19,7 @@ namespace Calculator
 
         private void bt_Click(object sender, EventArgs e)
         {
-            if (tb1.Text != string.Empty)
+             if (tb1.Text != string.Empty && tb2.Text != string.Empty)
             {
                 int a = int.Parse(tb1.Text);
                 int b = int.Parse(tb2.Text);
