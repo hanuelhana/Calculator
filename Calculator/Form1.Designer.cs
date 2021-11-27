@@ -46,8 +46,9 @@ namespace Calculator
             this.bt.Name = "bt";
             this.bt.Size = new System.Drawing.Size(137, 39);
             this.bt.TabIndex = 0;
-            this.bt.Text = "Kết quả";
+            this.bt.Text = "+";
             this.bt.UseVisualStyleBackColor = true;
+            this.bt.Click += new System.EventHandler(this.bt_Click);
             // 
             // lb1
             // 
@@ -97,11 +98,11 @@ namespace Calculator
             // 
             this.lb3.AutoSize = true;
             this.lb3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb3.Location = new System.Drawing.Point(50, 238);
+            this.lb3.Location = new System.Drawing.Point(9, 238);
             this.lb3.Name = "lb3";
-            this.lb3.Size = new System.Drawing.Size(73, 31);
+            this.lb3.Size = new System.Drawing.Size(114, 31);
             this.lb3.TabIndex = 5;
-            this.lb3.Text = "Số a";
+            this.lb3.Text = "Kết quả";
             // 
             // lb
             // 
