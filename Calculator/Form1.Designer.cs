@@ -37,14 +37,15 @@ namespace Calculator
             this.tb3 = new System.Windows.Forms.TextBox();
             this.lb3 = new System.Windows.Forms.Label();
             this.lb = new System.Windows.Forms.Label();
+            this.bt2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bt
             // 
             this.bt.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt.Location = new System.Drawing.Point(288, 289);
+            this.bt.Location = new System.Drawing.Point(307, 308);
             this.bt.Name = "bt";
-            this.bt.Size = new System.Drawing.Size(137, 39);
+            this.bt.Size = new System.Drawing.Size(75, 39);
             this.bt.TabIndex = 0;
             this.bt.Text = "+";
             this.bt.UseVisualStyleBackColor = true;
@@ -114,11 +115,23 @@ namespace Calculator
             this.lb.TabIndex = 7;
             this.lb.Text = "Phép cộng";
             // 
+            // bt2
+            // 
+            this.bt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt2.Location = new System.Drawing.Point(220, 308);
+            this.bt2.Name = "bt2";
+            this.bt2.Size = new System.Drawing.Size(70, 39);
+            this.bt2.TabIndex = 8;
+            this.bt2.Text = "-";
+            this.bt2.UseVisualStyleBackColor = true;
+            this.bt2.Click += new System.EventHandler(this.bt2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(454, 351);
+            this.ClientSize = new System.Drawing.Size(463, 375);
+            this.Controls.Add(this.bt2);
             this.Controls.Add(this.lb);
             this.Controls.Add(this.tb3);
             this.Controls.Add(this.lb3);
@@ -144,6 +157,7 @@ namespace Calculator
         private System.Windows.Forms.TextBox tb3;
         private System.Windows.Forms.Label lb3;
         private System.Windows.Forms.Label lb;
+        private System.Windows.Forms.Button bt2;
     }
 }
 
