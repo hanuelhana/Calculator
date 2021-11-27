@@ -43,9 +43,9 @@ namespace Calculator
             // bt
             // 
             this.bt.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt.Location = new System.Drawing.Point(307, 308);
+            this.bt.Location = new System.Drawing.Point(326, 308);
             this.bt.Name = "bt";
-            this.bt.Size = new System.Drawing.Size(75, 39);
+            this.bt.Size = new System.Drawing.Size(56, 39);
             this.bt.TabIndex = 0;
             this.bt.Text = "+";
             this.bt.UseVisualStyleBackColor = true;
@@ -118,9 +118,9 @@ namespace Calculator
             // bt2
             // 
             this.bt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt2.Location = new System.Drawing.Point(220, 308);
+            this.bt2.Location = new System.Drawing.Point(245, 308);
             this.bt2.Name = "bt2";
-            this.bt2.Size = new System.Drawing.Size(70, 39);
+            this.bt2.Size = new System.Drawing.Size(52, 39);
             this.bt2.TabIndex = 8;
             this.bt2.Text = "-";
             this.bt2.UseVisualStyleBackColor = true;
